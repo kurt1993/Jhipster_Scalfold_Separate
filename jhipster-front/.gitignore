@@ -1,0 +1,12 @@
+# IDE
+.idea
+*.iml
+
+# Node
+node_modules
+
+# DIST
+build
+
+# Bower
+bower_components

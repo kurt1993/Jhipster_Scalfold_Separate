@@ -1,0 +1,11 @@
+{
+  "generator-jhipster": {
+    "useSass": true,
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr",
+      "en"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+    "stock_exchanges": [
+        {
+            "_id": "BRVM",
+            "name": "Bourse Régionale des Valeurs Mobilières",
+            "securities":[
+                {
+                    "_id": "sec_1",
+                    "name": "Security 1"
+                },
+                {
+                    "_id": "sec_2",
+                    "name": "Security 2",
+                    "divisions": [
+                        {
+                            "date": {
+                                "$date": "2016-07-08T00:00:00"
+                            },
+                            "rate": 0.3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "_id": "NASDAQ",
+            "name": "NASDAQ Stock Market",
+            "securities":[
+                {
+                    "_id": "GOOGL",
+                    "name": "Alphabet Inc."
+                },
+                {
+                    "_id": "ADBE",
+                    "name": "Adobe Systems Incorporated"
+                }
+            ]
+        }
+    ]
+}
